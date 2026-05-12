@@ -445,7 +445,7 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
                 }
             }
         }
-        $healthy_defaults = ['sleep', 'stress', 'phys', 'fruitveg', 'fastfood', 'sugarbev', 'artbev'];
+        $healthy_defaults = ['sleep', 'stress', 'phys', 'food'];
         $healthy_defaults = array_map(function($item) use ($lookup) {
             return $lookup[$item];
         }, $healthy_defaults);
