@@ -67,16 +67,6 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
             'image' => 'sugary_beverages.png',
             'lookup_content' => 'nutr_action'
         ],
-        // TODO: need to remove this completely, no longer shown
-        'artbev' => [
-            'label' => "Artificial\nBeverage Intake",
-            'priority_field' => 'artbev_priority_numb_2',
-            'default_priority' => 14,
-            'top_three_field' => 'top_3___14',
-            'ranking_field' => 'artbev_priority',
-            'image' => 'artificial_beverages.png',
-            'lookup_content' => 'nutr_action'
-        ],
         'phys' => [
             'label' => 'Physical Activity',
             'priority_field' => 'phys_priority_numb_2',
