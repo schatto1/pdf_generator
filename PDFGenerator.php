@@ -49,8 +49,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'phys' => [
             'label' => 'Physical Activity',
             'priority_field' => 'phys_priority_numb_2',
-            'default_priority' => 10,
-            'top_three_field' => 'top_3___10',
+            'default_priority' => 7,
+            'top_three_field' => 'top_3___7',
             'ranking_field' => 'phys_priority',
             'image' => 'physical_activity.png',
             'lookup_content' => 'activity_action'
@@ -67,8 +67,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'anxiety' => [
             'label' => 'Anxiety',
             'priority_field' => 'anxietypriority_numb_2',
-            'default_priority' => 8,
-            'top_three_field' => 'top_3___8',
+            'default_priority' => 5,
+            'top_three_field' => 'top_3___5',
             'ranking_field' => 'anxiety_priority',
             'image' => 'anxiety.png',
             'lookup_content' => 'anx_action'
