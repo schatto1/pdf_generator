@@ -23,14 +23,8 @@
     "sleep": {
         "label": "Sleepiness"
     },
-    "tobacco": {
-        "label": "Tobacco/Nicotine Use"
-    },
-    "alcohol": {
-        "label": "Alcohol"
-    },
-    "drug": {
-        "label": "Drug Use"
+    "substance": {
+        "label": "Substance Use"
     },
     "gen": {
         "label": "General Health"
