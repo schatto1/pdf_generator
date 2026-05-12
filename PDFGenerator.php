@@ -94,8 +94,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'sleep' => [
             'label' => "Daytime\nSleepiness",
             'priority_field' => 'sleep_priority_numb_2',
-            'default_priority' => 7,
-            'top_three_field' => 'top_3___7',
+            'default_priority' => 8,
+            'top_three_field' => 'top_3___8',
             'ranking_field' => 'sleep_priority',
             'image' => 'sleep.png',
             'lookup_content' => 'sleep_action'
@@ -103,8 +103,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'genhealth' => [
             'label' => 'General Health',
             'priority_field' => 'genhealth_priority_numb_2',
-            'default_priority' => 16,
-            'top_three_field' => 'top_3___16',
+            'default_priority' => 11,
+            'top_three_field' => 'top_3___11',
             'ranking_field' => 'genhealth_priority',
             'image' => 'general_health.png',
             'lookup_content' => 'gen_action'
@@ -112,8 +112,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'pcp' => [
             'label' => "Primary Care\nProvider",
             'priority_field' => 'pcp_priority_numb_2',
-            'default_priority' => 4,
-            'top_three_field' => 'top_3___4',
+            'default_priority' => 3,
+            'top_three_field' => 'top_3___3',
             'ranking_field' => 'pcp_priority',
             'image' => 'primary_care_provider.png',
             'lookup_content' => 'gen_action'
