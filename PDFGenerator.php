@@ -82,32 +82,14 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
             'image' => 'depression.png',
             'lookup_content' => 'phq_action'
         ],
-        'alcohol' => [
-            'label' => "Alcohol\nConsumption",
-            'priority_field' => 'alchohol_priority_numb_2',
+        'substance' => [
+            'label' => "Substance Use",
+            'priority_field' => 'substance_priority_numb_2',
             'default_priority' => 5,
             'top_three_field' => 'top_3___5',
-            'ranking_field' => 'alchohol_priority',
-            'image' => 'alcohol.png',
-            'lookup_content' => 'alcohol_action'
-        ],
-        'drugs' => [
-            'label' => 'Drug Usage',
-            'priority_field' => 'drugs_priority_numb_2',
-            'default_priority' => 3,
-            'top_three_field' => 'top_3___3',
-            'ranking_field' => 'drugs_priority',
-            'image' => 'drug_use.png',
-            'lookup_content' => 'drug_action'
-        ],
-        'tobacco' => [
-            'label' => 'Tobacco Usage',
-            'priority_field' => 'tobacco_priority_numb_2',
-            'default_priority' => 6,
-            'top_three_field' => 'top_3___6',
-            'ranking_field' => 'tobacco_priority',
-            'image' => 'tobacco.png',
-            'lookup_content' => 'tobacco_action'
+            'ranking_field' => 'substance_priority',
+            'image' => 'substance_use.png',
+            'lookup_content' => 'substance_action'
         ],
         'sleep' => [
             'label' => "Daytime\nSleepiness",
