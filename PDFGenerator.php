@@ -85,8 +85,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'substance' => [
             'label' => "Substance Use",
             'priority_field' => 'substance_priority_numb_2',
-            'default_priority' => 5,
-            'top_three_field' => 'top_3___5',
+            'default_priority' => 2,
+            'top_three_field' => 'top_3___2',
             'ranking_field' => 'substance_priority',
             'image' => 'substance_use.png',
             'lookup_content' => 'substance_action'
