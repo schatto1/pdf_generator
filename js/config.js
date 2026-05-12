@@ -24,7 +24,6 @@ const imageToIndex = {
   "a1c.png": 0,
   "alcohol.png": 1,
   "anxiety.png": 2,
-  "artificial_beverages.png": 3,
   "depression.png": 4,
   "diabetes.png": 5,
   "drug_use.png": 6,
