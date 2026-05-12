@@ -22,8 +22,8 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'dbt' => [
             'label' => 'Diabetes',
             'priority_field' => 'dbt_priority_numb_2',
-            'default_priority' => 15,
-            'top_three_field' => 'top_3___15',
+            'default_priority' => 10,
+            'top_three_field' => 'top_3___10',
             'ranking_field' => 'dbt_priority',
             'image' => 'diabetes.png',
             'lookup_content' => 'meta_action'
@@ -31,40 +31,19 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         'a1c' => [
             'label' => "Hemoglobin\nA1C",
             'priority_field' => 'a1c_priority_numb_2',
-            'default_priority' => 2,
-            'top_three_field' => 'top_3___2',
+            'default_priority' => 4,
+            'top_three_field' => 'top_3___4',
             'ranking_field' => 'a1c_priority',
             'image' => 'a1c.png',
             'lookup_content' => 'meta_action'
         ],
-        // TODO: no longer relevant, remove
-        'fastfood' => [
-            'label' => "Fast Food &\nSnack Intake",
-            'priority_field' => 'fastfood_priority_numb_2',
-            'default_priority' => 12,
-            'top_three_field' => 'top_3___12',
-            'ranking_field' => 'fastfood_priority',
+        'food' => [
+            'label' => "Food & Nutrition",
+            'priority_field' => 'food_priority_numb_2',
+            'default_priority' => 6,
+            'top_three_field' => 'top_3___6',
+            'ranking_field' => 'food_priority',
             'image' => 'fast_food.png',
-            'lookup_content' => 'nutr_action'
-        ],
-        // TODO: no longer relevant, remove
-        'fruitveg' => [
-            'label' => "Fruit & Vegetable\nIntake",
-            'priority_field' => 'fruitveg_priority_numb_2',
-            'default_priority' => 11,
-            'top_three_field' => 'top_3___11',
-            'ranking_field' => 'fruitveg_priority',
-            'image' => 'fruit_and_vegetable.png',
-            'lookup_content' => 'nutr_action'
-        ],
-        // TODO: no longer relevant, remove
-        'sugarbev' => [
-            'label' => "Sugar Sweetened\nBeverage Intake",
-            'priority_field' => 'sugarbev_priority_numb_2',
-            'default_priority' => 13,
-            'top_three_field' => 'top_3___13',
-            'ranking_field' => 'sugarbev_priority',
-            'image' => 'sugary_beverages.png',
             'lookup_content' => 'nutr_action'
         ],
         'phys' => [
