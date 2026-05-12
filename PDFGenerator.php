@@ -88,7 +88,7 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
             'default_priority' => 2,
             'top_three_field' => 'top_3___2',
             'ranking_field' => 'substance_priority',
-            'image' => 'substance_use.png',
+            'image' => 'drug_use.png',
             'lookup_content' => 'substance_action'
         ],
         'sleep' => [
@@ -503,11 +503,15 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
         $goalsContent =  array();
         foreach ($lookupData as $key => $value) {
 
+            $this->console_log("Processing key: " . $key);
+
             $green = $key . '_is_green';
             $action = $key . '_action';
             $yn = $key . '_yn';
 
             $user_choice = $record[1][$action] ? $record[1][$action] : "noansw";
+
+            $this->console_log("User choice for $key: " . $user_choice);
 
             $user_yn = $record[1][$yn];
             $user_green = $record[1][$green];
