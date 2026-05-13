@@ -20,7 +20,7 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
     // variables that are shown here
     private $lookup = [
         'dbt' => [
-            'label' => 'Diabetes',
+            'label' => 'Diabetes Risk',
             'priority_field' => 'dbt_priority_numb_2',
             'default_priority' => 10,
             'top_three_field' => 'top_3___10',
