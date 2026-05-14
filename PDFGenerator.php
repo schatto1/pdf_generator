@@ -520,16 +520,16 @@ class PDFGenerator extends \ExternalModules\AbstractExternalModule {
                 if ($user_yn == "0") {
                     $user_choice = "noaction";
                 }
-                else if ($user_green == "1" && ($key == "tobacco" || $key == "alcohol" || $key == "drug")){
+                else if ($user_green == "1" && ($key == "substance")){
                     continue;
                 }
-                else if ($user_yn == "1" && ($key == "tobacco" || $key == "alcohol" || $key == "drug")){
+                else if ($user_yn == "1" && ($key == "substance")){
                     $user_choice = "noansw";
                 }
                 else if ($user_green == "1") {
                     $user_choice = "g_action";
                 }
-                else if ($user_green == null && ($key == "tobacco" || $key == "alcohol" || $key == "drug" || $key == "meta")) {
+                else if ($user_green == null && ($key == "substance" || $key == "meta")) {
                     // its probably tobacco, alcohol, or drugs
                     // could also be meta
                     // skip because the user does not need resources for these
